@@ -1,0 +1,7 @@
+{
+  "name": "StringVergleich",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
