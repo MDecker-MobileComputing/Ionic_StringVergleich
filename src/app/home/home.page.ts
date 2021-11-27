@@ -9,5 +9,18 @@ import { AlertController } from '@ionic/angular';
 export class HomePage {
 
   constructor(private alertCtrl: AlertController) {}
+  
 
+  async zeigeDialog(titel: string, nachricht: string) {
+
+    const meinAlert =
+          await this.alertCtrl.create({
+              header  : titel,
+              message : nachricht,
+              buttons : [ "Ok" ]
+          });
+
+    await meinAlert.present();
+  }  
+  
 }
