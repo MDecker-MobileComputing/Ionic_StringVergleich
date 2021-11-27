@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">StringVergleich</string>
+    <string name="title_activity_main">StringVergleich</string>
+    <string name="package_name">de.mide.ionic.stringvergleich</string>
+    <string name="custom_url_scheme">de.mide.ionic.stringvergleich</string>
+</resources>

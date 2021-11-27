@@ -1,0 +1,6 @@
+{
+	"appId": "de.mide.ionic.stringvergleich",
+	"appName": "StringVergleich",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
