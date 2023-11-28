@@ -9,7 +9,7 @@ import { AlertController } from '@ionic/angular';
 export class HomePage {
 
   constructor(private alertCtrl: AlertController) {}
-  
+
 
   async zeigeDialog(titel: string, nachricht: string) {
 
@@ -21,6 +21,6 @@ export class HomePage {
           });
 
     await meinAlert.present();
-  }  
-  
+  }
+
 }
