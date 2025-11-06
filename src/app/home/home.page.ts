@@ -6,13 +6,14 @@ import { AlertController } from '@ionic/angular';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
+  standalone: false,
 })
 export class HomePage {
 
-  constructor(private alertCtrl: AlertController) {}
+  constructor( private alertCtrl: AlertController ) {}
 
 
-  async zeigeDialog(titel: string, nachricht: string) {
+  async zeigeDialog( titel: string, nachricht: string ) {
 
     const meinAlert =
           await this.alertCtrl.create({
