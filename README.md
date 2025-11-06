@@ -1,9 +1,9 @@
-# Ionic app "String Comparison" #
+# Ionic-App "String-Vergleich" #
 
 <br>
 
-This repository contains an Ionic app that is to be completed as exercise. 
-The purpose of the app is to compare the length of two strings.
+Diese Repository enthält ein [Ionic](https://ionicframework.com/)/Angular-Projekt für eine mobile App.
+Die App vergleicht zwei Strings und ist als Übungsaufgabe zu vervollständigen.
 
 <br>
 
